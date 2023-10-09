@@ -10,5 +10,7 @@ public class HelloWorld {
         String name = scanner.nextLine(); // Leo la entrada del usuario
         System.out.println("¡Hola " + name + "!"); // Imprimo un mensaje
         System.out.println("Hoy es: " + LocalDate.now()); //Imprimo la hora y fecha
+        scanner.close (); // Cierro el scanner
+
     }
 }
