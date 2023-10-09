@@ -1,10 +1,12 @@
+// Importo librerias
 import java.util.Scanner;
 
+// Clase principal
 public class HelloWorld {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("¿Cómo te llamas?");
-        String name = scanner.nextLine();
-        System.out.println("¡Hola " + name + "!");
+        Scanner scanner = new Scanner(System.in); // Creo un objeto Scanner
+        System.out.println("¿Cómo te llamas?"); // Imprimo un mensaje
+        String name = scanner.nextLine(); // Leo la entrada del usuario
+        System.out.println("¡Hola " + name + "!"); // Imprimo un mensaje
     }
 }
